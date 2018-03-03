@@ -1,5 +1,9 @@
 # -----work in progress-----
 
+Partially done: transport bar
+
+TODO's: device page, drum page, keyboard page, mixer page
+
 # Open Stage Control template for Bitwig
 With these files, you can use any device that has google chrome, to remotely control Bitwig studio. 
 I use it on my android nexus 9 tablet and my little json template is optimized for this resolution.
