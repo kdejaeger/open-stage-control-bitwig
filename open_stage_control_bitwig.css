@@ -20,9 +20,14 @@
 	--color-white-key: #888888;
 }
 
-.widget.push-container.absolute-position.on {
+.widget.push-container.on,
+.widget.toggle-container.on
+{
 	background : #f88311;
 }
-.widget.push-container.absolute-position.on .label {
+.widget.push-container.on .label,
+.widget.toggle-container.on .label
+{
 	color: #141414;
+	font-weight: bolder;
 }
