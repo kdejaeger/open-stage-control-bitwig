@@ -1,8 +1,8 @@
 # -----work in progress-----
 
-Partially done: transport bar, device page
+Partially done: transport bar, device page, drum page
 
-TODO's: drum page, keyboard page, mixer page
+TODO's: keyboard page, mixer page
 
 # Open Stage Control template for Bitwig
 With these files, you can use any device that has google chrome, to remotely control Bitwig studio. 
