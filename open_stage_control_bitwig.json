@@ -1043,7 +1043,7 @@
                                 ],
                                 "variables": {},
                                 "border": true,
-                                "css": "font-size: 125%",
+                                "css": "",
                                 "horizontal": true,
                                 "stretch": false,
                                 "_style": "style",
