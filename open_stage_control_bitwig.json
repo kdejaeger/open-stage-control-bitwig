@@ -984,12 +984,51 @@
                                         "border": false,
                                         "spacing": 4,
                                         "variables": {
-                                            "n": 60
+                                            "note": 60,
+                                            "i": 13
                                         },
                                         "widgets": [
                                             {
+                                                "type": "text",
+                                                "id": "text_drum_@{parent.variables.note}",
+                                                "linkId": "",
+                                                "height": "20%",
+                                                "label": false,
+                                                "color": "auto",
+                                                "css": "",
+                                                "horizontal": false,
+                                                "alignRight": false,
+                                                "pips": true,
+                                                "input": true,
+                                                "meter": false,
+                                                "compact": false,
+                                                "dashed": false,
+                                                "snap": false,
+                                                "spring": false,
+                                                "doubleTap": false,
+                                                "range": {
+                                                    "min": 0,
+                                                    "max": 1
+                                                },
+                                                "logScale": false,
+                                                "unit": "",
+                                                "origin": "auto",
+                                                "default": " ",
+                                                "value": "",
+                                                "precision": 2,
+                                                "address": "/device/layer/@{parent.variables.i}/name",
+                                                "touchAddress": "",
+                                                "meterAddress": "",
+                                                "preArgs": [],
+                                                "target": [],
+                                                "bypass": false,
+                                                "vertical": false,
+                                                "wrap": true,
+                                                "align": ""
+                                            },
+                                            {
                                                 "type": "push",
-                                                "id": "button_drum_@{parent.variables.n}",
+                                                "id": "button_drum_@{parent.variables.note}",
                                                 "linkId": "",
                                                 "label": false,
                                                 "color": "auto",
@@ -1011,12 +1050,12 @@
                                                 "default": "",
                                                 "value": "",
                                                 "precision": 2,
-                                                "address": "/vkb_midi/0/drum/@{parent.variables.n}",
+                                                "address": "/vkb_midi/0/drum/@{parent.variables.note}",
                                                 "touchAddress": "",
                                                 "preArgs": [],
                                                 "target": [],
                                                 "bypass": false,
-                                                "height": "auto",
+                                                "height": "80%",
                                                 "alignRight": false,
                                                 "horizontal": false,
                                                 "compact": true,
@@ -1051,7 +1090,8 @@
                                         "widgetId": "strip_drum_60",
                                         "props": {
                                             "variables": {
-                                                "n": 61
+                                                "note": 61,
+                                                "i": 14
                                             }
                                         },
                                         "label": "",
@@ -1068,7 +1108,8 @@
                                         "widgetId": "strip_drum_60",
                                         "props": {
                                             "variables": {
-                                                "n": 62
+                                                "note": 62,
+                                                "i": 15
                                             }
                                         },
                                         "label": "",
@@ -1085,7 +1126,8 @@
                                         "widgetId": "strip_drum_60",
                                         "props": {
                                             "variables": {
-                                                "n": 63
+                                                "note": 63,
+                                                "i": 16
                                             }
                                         },
                                         "label": "",
@@ -1102,7 +1144,8 @@
                                         "widgetId": "strip_drum_60",
                                         "props": {
                                             "variables": {
-                                                "n": 52
+                                                "note": 52,
+                                                "i": 9
                                             }
                                         },
                                         "label": "",
@@ -1119,7 +1162,8 @@
                                         "widgetId": "strip_drum_60",
                                         "props": {
                                             "variables": {
-                                                "n": 53
+                                                "note": 53,
+                                                "i": 10
                                             }
                                         },
                                         "label": "",
@@ -1136,7 +1180,8 @@
                                         "widgetId": "strip_drum_60",
                                         "props": {
                                             "variables": {
-                                                "n": 54
+                                                "note": 54,
+                                                "i": 11
                                             }
                                         },
                                         "label": "",
@@ -1153,7 +1198,8 @@
                                         "widgetId": "strip_drum_60",
                                         "props": {
                                             "variables": {
-                                                "n": 55
+                                                "note": 55,
+                                                "i": 12
                                             }
                                         },
                                         "label": "",
@@ -1170,7 +1216,8 @@
                                         "widgetId": "strip_drum_60",
                                         "props": {
                                             "variables": {
-                                                "n": 44
+                                                "note": 44,
+                                                "i": 5
                                             }
                                         },
                                         "label": "",
@@ -1187,7 +1234,8 @@
                                         "widgetId": "strip_drum_60",
                                         "props": {
                                             "variables": {
-                                                "n": 45
+                                                "note": 45,
+                                                "i": 6
                                             }
                                         },
                                         "label": "",
@@ -1204,7 +1252,8 @@
                                         "widgetId": "strip_drum_60",
                                         "props": {
                                             "variables": {
-                                                "n": 46
+                                                "note": 46,
+                                                "i": 7
                                             }
                                         },
                                         "label": "",
@@ -1221,7 +1270,8 @@
                                         "widgetId": "strip_drum_60",
                                         "props": {
                                             "variables": {
-                                                "n": 47
+                                                "note": 47,
+                                                "i": 8
                                             }
                                         },
                                         "label": "",
@@ -1238,7 +1288,8 @@
                                         "widgetId": "strip_drum_60",
                                         "props": {
                                             "variables": {
-                                                "n": 37
+                                                "note": 37,
+                                                "i": 2
                                             }
                                         },
                                         "label": "",
@@ -1255,7 +1306,8 @@
                                         "widgetId": "strip_drum_60",
                                         "props": {
                                             "variables": {
-                                                "n": 38
+                                                "note": 38,
+                                                "i": 3
                                             }
                                         },
                                         "label": "",
@@ -1272,7 +1324,8 @@
                                         "widgetId": "strip_drum_60",
                                         "props": {
                                             "variables": {
-                                                "n": 36
+                                                "note": 36,
+                                                "i": 1
                                             }
                                         },
                                         "label": "",
@@ -1289,7 +1342,8 @@
                                         "widgetId": "strip_drum_60",
                                         "props": {
                                             "variables": {
-                                                "n": 39
+                                                "note": 39,
+                                                "i": 4
                                             }
                                         },
                                         "label": "",
@@ -2124,7 +2178,7 @@
                                         "css": "",
                                         "preArgs": [],
                                         "value": "00:00:00:00",
-                                        "address": "/position",
+                                        "address": "/time/str",
                                         "widgetId": "",
                                         "width": "12%",
                                         "color": "auto",
@@ -2587,7 +2641,8 @@
                                                         "compact": true,
                                                         "input": false,
                                                         "linkId": "",
-                                                        "default": ""
+                                                        "default": "",
+                                                        "gradient": []
                                                     },
                                                     {
                                                         "type": "fader",
@@ -3275,7 +3330,8 @@
                                                 "compact": true,
                                                 "input": false,
                                                 "linkId": "",
-                                                "default": ""
+                                                "default": "",
+                                                "gradient": []
                                             },
                                             {
                                                 "type": "fader",
