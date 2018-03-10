@@ -10,7 +10,7 @@
                 "color": "auto",
                 "css": "",
                 "layout": "",
-                "spacing": 0,
+                "spacing": "0%",
                 "default": "",
                 "value": "",
                 "precision": 0,
@@ -31,9 +31,9 @@
                         "color": "auto",
                         "css": "",
                         "scroll": false,
-                        "border": true,
+                        "border": false,
                         "layout": "",
-                        "spacing": 0,
+                        "spacing": "0%",
                         "default": "",
                         "value": "",
                         "precision": 0,
@@ -57,8 +57,8 @@
                                 "scroll": true,
                                 "horizontal": false,
                                 "stretch": false,
-                                "border": true,
-                                "spacing": 0,
+                                "border": false,
+                                "spacing": "0%",
                                 "variables": "@{parent.variables}",
                                 "widgets": [
                                     {
@@ -75,8 +75,8 @@
                                         "scroll": true,
                                         "horizontal": false,
                                         "stretch": false,
-                                        "border": true,
-                                        "spacing": 0,
+                                        "border": false,
+                                        "spacing": "0%",
                                         "variables": "@{parent.variables}",
                                         "widgets": [],
                                         "_geometry": "geometry",
@@ -119,7 +119,7 @@
                                 "id": "panel_device_parameters",
                                 "label": false,
                                 "color": "auto",
-                                "spacing": 0,
+                                "spacing": "0%",
                                 "variables": "@{parent.variables}",
                                 "widgets": [
                                     {
@@ -132,12 +132,12 @@
                                         "width": "25%",
                                         "height": "50%",
                                         "color": "auto",
-                                        "css": "",
+                                        "css": "#{\ncss = @{strip_device_param_name_1} == \" \" ? \"visibility:hidden\" : \"\"\n}",
                                         "scroll": false,
                                         "horizontal": false,
                                         "stretch": false,
                                         "border": false,
-                                        "spacing": 3,
+                                        "spacing": "1.5%",
                                         "variables": {
                                             "n": 1,
                                             "color": "#DB1534"
@@ -248,7 +248,7 @@
                                         "id": "strip_device_param_2",
                                         "width": "25%",
                                         "height": "50%",
-                                        "css": "",
+                                        "css": "#{\ncss = @{strip_device_param_name_2} == \" \" ? \"visibility:hidden\" : \"\"\n}",
                                         "widgetId": "strip_device_param_1",
                                         "props": {
                                             "variables": {
@@ -266,7 +266,7 @@
                                         "id": "strip_device_param_3",
                                         "width": "25%",
                                         "height": "50%",
-                                        "css": "",
+                                        "css": "#{\ncss = @{strip_device_param_name_3} == \" \" ? \"visibility:hidden\" : \"\"\n}",
                                         "widgetId": "strip_device_param_1",
                                         "props": {
                                             "variables": {
@@ -284,7 +284,7 @@
                                         "id": "strip_device_param_4",
                                         "width": "25%",
                                         "height": "50%",
-                                        "css": "",
+                                        "css": "#{\ncss = @{strip_device_param_name_4} == \" \" ? \"visibility:hidden\" : \"\"\n}",
                                         "widgetId": "strip_device_param_1",
                                         "props": {
                                             "variables": {
@@ -302,7 +302,7 @@
                                         "id": "strip_device_param_5",
                                         "width": "25%",
                                         "height": "50%",
-                                        "css": "",
+                                        "css": "#{\ncss = @{strip_device_param_name_5} == \" \" ? \"visibility:hidden\" : \"\"\n}",
                                         "widgetId": "strip_device_param_1",
                                         "props": {
                                             "variables": {
@@ -320,7 +320,7 @@
                                         "id": "strip_device_param_6",
                                         "width": "25%",
                                         "height": "50%",
-                                        "css": "",
+                                        "css": "#{\ncss = @{strip_device_param_name_6} == \" \" ? \"visibility:hidden\" : \"\"\n}",
                                         "widgetId": "strip_device_param_1",
                                         "props": {
                                             "variables": {
@@ -338,7 +338,7 @@
                                         "id": "strip_device_param_7",
                                         "width": "25%",
                                         "height": "50%",
-                                        "css": "",
+                                        "css": "#{\ncss = @{strip_device_param_name_7} == \" \" ? \"visibility:hidden\" : \"\"\n}",
                                         "widgetId": "strip_device_param_1",
                                         "props": {
                                             "variables": {
@@ -356,7 +356,7 @@
                                         "id": "strip_device_param_8",
                                         "width": "25%",
                                         "height": "50%",
-                                        "css": "",
+                                        "css": "#{\ncss = @{strip_device_param_name_8} == \" \" ? \"visibility:hidden\" : \"\"\n}",
                                         "widgetId": "strip_device_param_1",
                                         "props": {
                                             "variables": {
@@ -373,7 +373,7 @@
                                 "css": "",
                                 "height": "90%",
                                 "width": "80%",
-                                "border": true,
+                                "border": false,
                                 "_style": "style",
                                 "_children": "children",
                                 "scroll": false,
@@ -405,9 +405,9 @@
                                 "color": "auto",
                                 "css": "",
                                 "scroll": false,
-                                "border": true,
+                                "border": false,
                                 "layout": "",
-                                "spacing": 0,
+                                "spacing": "0%",
                                 "default": "",
                                 "value": "",
                                 "precision": 0,
@@ -429,14 +429,14 @@
                                                 "id": "tools_strip_track_stuff",
                                                 "linkId": "",
                                                 "label": false,
-                                                "height": "44%",
+                                                "height": "45%",
                                                 "color": "auto",
                                                 "css": "",
                                                 "scroll": false,
                                                 "horizontal": false,
                                                 "stretch": false,
                                                 "border": false,
-                                                "spacing": 0,
+                                                "spacing": "0%",
                                                 "variables": "@{parent.variables}",
                                                 "widgets": [
                                                     {
@@ -500,7 +500,7 @@
                                                         "horizontal": true,
                                                         "stretch": true,
                                                         "border": false,
-                                                        "spacing": 2,
+                                                        "spacing": "1.25%",
                                                         "variables": "@{parent.variables}",
                                                         "widgets": [
                                                             {
@@ -567,7 +567,7 @@
                                                         "horizontal": true,
                                                         "stretch": true,
                                                         "border": false,
-                                                        "spacing": 2,
+                                                        "spacing": "1.25%",
                                                         "variables": "@{parent.variables}",
                                                         "widgets": [
                                                             {
@@ -599,7 +599,7 @@
                                                                 "target": [],
                                                                 "norelease": true,
                                                                 "address": "/track/selected/enter",
-                                                                "css": "border: @{tools_track_isgroup}px #FF7F17 dashed; ",
+                                                                "css": "#{\ncss = @{tools_track_isgroup} == 0 ? \"visibility:hidden\" : \"\" \n}",
                                                                 "color": "auto",
                                                                 "bypass": false,
                                                                 "width": "auto"
@@ -656,7 +656,7 @@
                                                         "horizontal": true,
                                                         "stretch": true,
                                                         "border": false,
-                                                        "spacing": 2,
+                                                        "spacing": "1.25%",
                                                         "variables": "@{parent.variables}",
                                                         "widgets": [
                                                             {
@@ -750,7 +750,7 @@
                                                 "horizontal": false,
                                                 "stretch": false,
                                                 "border": false,
-                                                "spacing": 0,
+                                                "spacing": "0%",
                                                 "variables": "@{parent.variables}",
                                                 "widgets": [
                                                     {
@@ -780,7 +780,7 @@
                                                         "horizontal": true,
                                                         "stretch": true,
                                                         "border": false,
-                                                        "spacing": 2,
+                                                        "spacing": "1%",
                                                         "variables": "@{parent.variables}",
                                                         "widgets": [
                                                             {
@@ -865,7 +865,7 @@
                                                 "horizontal": false,
                                                 "stretch": false,
                                                 "border": false,
-                                                "spacing": 0,
+                                                "spacing": "0%",
                                                 "variables": "@{parent.variables}",
                                                 "widgets": [
                                                     {
@@ -895,7 +895,7 @@
                                                         "horizontal": true,
                                                         "stretch": true,
                                                         "border": false,
-                                                        "spacing": 2,
+                                                        "spacing": "1.25%",
                                                         "variables": "@{parent.variables}",
                                                         "widgets": [
                                                             {
@@ -972,13 +972,13 @@
                                                 "type": "strip",
                                                 "id": "tools_device_extra_strip",
                                                 "label": false,
-                                                "height": "10%",
+                                                "height": "9%",
                                                 "color": "auto",
                                                 "css": "",
                                                 "horizontal": true,
                                                 "stretch": true,
                                                 "border": false,
-                                                "spacing": 2,
+                                                "spacing": "1.25%",
                                                 "variables": "@{parent.variables}",
                                                 "widgets": [
                                                     {
@@ -1088,8 +1088,8 @@
                                                 "bypass": false
                                             }
                                         ],
-                                        "spacing": 3,
-                                        "border": true,
+                                        "spacing": "1.5%",
+                                        "border": false,
                                         "horizontal": false,
                                         "stretch": false,
                                         "_style": "style",
@@ -1115,41 +1115,6 @@
                                         "default": "",
                                         "noSync": false,
                                         "bypass": false
-                                    },
-                                    {
-                                        "type": "strip",
-                                        "id": "tools_extra_devices",
-                                        "label": false,
-                                        "height": "10%",
-                                        "color": "auto",
-                                        "css": "",
-                                        "horizontal": true,
-                                        "stretch": true,
-                                        "border": true,
-                                        "spacing": 3,
-                                        "variables": "@{parent.variables}",
-                                        "widgets": [],
-                                        "_style": "style",
-                                        "_children": "children",
-                                        "scroll": false,
-                                        "_geometry": "geometry",
-                                        "_panel": "panel",
-                                        "layout": "",
-                                        "value": "",
-                                        "_osc": "osc",
-                                        "precision": 0,
-                                        "address": "/monitor_modal_strip4",
-                                        "preArgs": [],
-                                        "target": [],
-                                        "tabs": [],
-                                        "linkId": "",
-                                        "_value": "value",
-                                        "default": "",
-                                        "noSync": false,
-                                        "bypass": false,
-                                        "left": "auto",
-                                        "top": "90%",
-                                        "width": "100%"
                                     }
                                 ],
                                 "tabs": []
@@ -1170,7 +1135,7 @@
                 "color": "auto",
                 "css": "",
                 "layout": "",
-                "spacing": 0,
+                "spacing": "0%",
                 "default": "",
                 "value": "",
                 "precision": 0,
@@ -1192,9 +1157,9 @@
                         "color": "auto",
                         "css": "",
                         "scroll": false,
-                        "border": true,
+                        "border": false,
                         "layout": "",
-                        "spacing": 0,
+                        "spacing": "0%",
                         "default": "",
                         "value": "",
                         "precision": 0,
@@ -1218,8 +1183,8 @@
                                 "scroll": true,
                                 "horizontal": false,
                                 "stretch": false,
-                                "border": true,
-                                "spacing": 0,
+                                "border": false,
+                                "spacing": "0%",
                                 "variables": "@{parent.variables}",
                                 "widgets": [
                                     {
@@ -1236,8 +1201,8 @@
                                         "scroll": true,
                                         "horizontal": false,
                                         "stretch": false,
-                                        "border": true,
-                                        "spacing": 0,
+                                        "border": false,
+                                        "spacing": "0%",
                                         "variables": "@{parent.variables}",
                                         "widgets": [],
                                         "_geometry": "geometry",
@@ -1280,7 +1245,7 @@
                                 "id": "panel_drums_matrix",
                                 "label": false,
                                 "color": "auto",
-                                "spacing": 0,
+                                "spacing": "0%",
                                 "variables": "@{parent.variables}",
                                 "widgets": [
                                     {
@@ -1298,7 +1263,7 @@
                                         "horizontal": false,
                                         "stretch": false,
                                         "border": false,
-                                        "spacing": 4,
+                                        "spacing": "1.5%",
                                         "variables": {
                                             "note": 60,
                                             "i": 13
@@ -1381,7 +1346,7 @@
                                             },
                                             {
                                                 "type": "strip",
-                                                "id": "strip_in_strip_drum_@{parent.variables.note}",
+                                                "id": "edit_drum_@{parent.variables.note}",
                                                 "linkId": "",
                                                 "label": false,
                                                 "height": "50%",
@@ -1390,8 +1355,8 @@
                                                 "scroll": false,
                                                 "horizontal": false,
                                                 "stretch": false,
-                                                "border": true,
-                                                "spacing": 0,
+                                                "border": false,
+                                                "spacing": "0%",
                                                 "variables": "@{parent.variables}",
                                                 "widgets": [
                                                     {
@@ -1404,8 +1369,8 @@
                                                         "scroll": false,
                                                         "horizontal": true,
                                                         "stretch": false,
-                                                        "border": true,
-                                                        "spacing": 0,
+                                                        "border": false,
+                                                        "spacing": "0%",
                                                         "variables": "@{parent.variables}",
                                                         "widgets": [
                                                             {
@@ -1467,20 +1432,20 @@
                                                     },
                                                     {
                                                         "type": "fader",
-                                                        "id": "meter_37",
+                                                        "id": "meter_drum_@{parent.variables.note}",
                                                         "linkId": "",
                                                         "label": false,
                                                         "color": "auto",
                                                         "css": "",
                                                         "range": {
                                                             "min": 0,
-                                                            "max": 1
+                                                            "max": 127
                                                         },
                                                         "logScale": false,
                                                         "origin": "auto",
                                                         "unit": "",
                                                         "alignRight": false,
-                                                        "horizontal": false,
+                                                        "horizontal": true,
                                                         "pips": false,
                                                         "dashed": false,
                                                         "default": "",
@@ -1489,7 +1454,7 @@
                                                         "preArgs": [],
                                                         "compact": true,
                                                         "input": false,
-                                                        "meter": false,
+                                                        "meter": true,
                                                         "snap": false,
                                                         "spring": false,
                                                         "doubleTap": false,
@@ -1808,7 +1773,7 @@
                                 "css": "",
                                 "height": "90%",
                                 "width": "80%",
-                                "border": true,
+                                "border": false,
                                 "_style": "style",
                                 "_children": "children",
                                 "scroll": false,
@@ -1840,9 +1805,9 @@
                                 "color": "auto",
                                 "css": "",
                                 "scroll": false,
-                                "border": true,
+                                "border": false,
                                 "layout": "",
-                                "spacing": 0,
+                                "spacing": "0%",
                                 "default": "",
                                 "value": "",
                                 "precision": 0,
@@ -1869,13 +1834,13 @@
                                         "type": "strip",
                                         "id": "tools_extra_drums",
                                         "label": false,
-                                        "height": "10%",
+                                        "height": "9%",
                                         "color": "auto",
                                         "css": "",
                                         "horizontal": true,
                                         "stretch": true,
-                                        "border": true,
-                                        "spacing": 5,
+                                        "border": false,
+                                        "spacing": "2.5%",
                                         "variables": "@{parent.variables}",
                                         "widgets": [
                                             {
@@ -1979,7 +1944,7 @@
                 "color": "auto",
                 "css": "",
                 "layout": "",
-                "spacing": 0,
+                "spacing": "0%",
                 "default": "",
                 "value": "",
                 "precision": 0,
@@ -2001,9 +1966,9 @@
                         "color": "auto",
                         "css": "",
                         "scroll": false,
-                        "border": true,
+                        "border": false,
                         "layout": "",
-                        "spacing": 0,
+                        "spacing": "0%",
                         "default": "",
                         "value": "",
                         "precision": 0,
@@ -2027,8 +1992,8 @@
                                 "scroll": true,
                                 "horizontal": false,
                                 "stretch": false,
-                                "border": true,
-                                "spacing": 0,
+                                "border": false,
+                                "spacing": "0%",
                                 "variables": "@{parent.variables}",
                                 "widgets": [
                                     {
@@ -2045,8 +2010,8 @@
                                         "scroll": true,
                                         "horizontal": false,
                                         "stretch": false,
-                                        "border": true,
-                                        "spacing": 0,
+                                        "border": false,
+                                        "spacing": "0%",
                                         "variables": "@{parent.variables}",
                                         "widgets": [],
                                         "_geometry": "geometry",
@@ -2089,15 +2054,15 @@
                                 "id": "panel_keyboard_boards",
                                 "label": false,
                                 "color": "auto",
-                                "spacing": 0,
+                                "spacing": "0%",
                                 "variables": "@{parent.variables}",
                                 "widgets": [
                                     {
                                         "type": "keyboard",
-                                        "top": 0,
-                                        "left": 0,
+                                        "top": "0.5%",
+                                        "left": "0.5%",
                                         "id": "the_keyboard",
-                                        "width": "100%",
+                                        "width": "99.5%",
                                         "height": "60%",
                                         "label": false,
                                         "color": "auto",
@@ -2116,12 +2081,12 @@
                                     },
                                     {
                                         "type": "strip",
-                                        "top": "60%",
-                                        "left": 0,
+                                        "top": "61%",
+                                        "left": "0.5%",
                                         "id": "tools_keyboard",
                                         "linkId": "",
                                         "label": false,
-                                        "width": "100%",
+                                        "width": "99.5%",
                                         "height": "35%",
                                         "color": "auto",
                                         "css": "",
@@ -2129,7 +2094,7 @@
                                         "horizontal": true,
                                         "stretch": true,
                                         "border": false,
-                                        "spacing": 4,
+                                        "spacing": "0.5%",
                                         "variables": "@{parent.variables}",
                                         "widgets": [
                                             {
@@ -2249,24 +2214,40 @@
                                                 "horizontal": false,
                                                 "stretch": false,
                                                 "border": false,
-                                                "spacing": 4,
+                                                "spacing": "0%",
                                                 "variables": "@{parent.variables}",
                                                 "widgets": [
                                                     {
+                                                        "type": "text",
+                                                        "id": "text_1",
+                                                        "linkId": "",
+                                                        "height": "10%",
+                                                        "label": "auto",
+                                                        "color": "auto",
+                                                        "css": "visibility:hidden",
+                                                        "vertical": false,
+                                                        "wrap": false,
+                                                        "align": "",
+                                                        "default": "",
+                                                        "value": "",
+                                                        "preArgs": [],
+                                                        "address": "/text_1"
+                                                    },
+                                                    {
                                                         "type": "strip",
-                                                        "id": "tools_extra_keyboard1",
+                                                        "id": "tools_extra_keyboard_strip",
                                                         "label": false,
                                                         "color": "auto",
                                                         "css": "",
                                                         "horizontal": false,
                                                         "stretch": true,
                                                         "border": false,
-                                                        "spacing": 4,
+                                                        "spacing": "10%",
                                                         "variables": "@{parent.variables}",
                                                         "widgets": [
                                                             {
                                                                 "type": "push",
-                                                                "id": "tools_device_next_param3",
+                                                                "id": "tools_extra_keyboard_noteup",
                                                                 "linkId": "",
                                                                 "label": "N ^caret-up",
                                                                 "on": 1,
@@ -2283,7 +2264,7 @@
                                                             },
                                                             {
                                                                 "type": "push",
-                                                                "id": "tools_device_previous_param3",
+                                                                "id": "tools_extra_keyboard_notedown",
                                                                 "linkId": "",
                                                                 "label": "N ^caret-down",
                                                                 "on": 1,
@@ -2317,7 +2298,23 @@
                                                         "default": "",
                                                         "noSync": false,
                                                         "bypass": false,
-                                                        "height": "100%"
+                                                        "height": "80%"
+                                                    },
+                                                    {
+                                                        "type": "text",
+                                                        "id": "text_2",
+                                                        "linkId": "",
+                                                        "height": "10%",
+                                                        "label": "auto",
+                                                        "color": "auto",
+                                                        "css": "visibility:hidden",
+                                                        "vertical": false,
+                                                        "wrap": false,
+                                                        "align": "",
+                                                        "default": "",
+                                                        "value": "",
+                                                        "preArgs": [],
+                                                        "address": "/text_2"
                                                     }
                                                 ],
                                                 "_geometry": "geometry",
@@ -2389,9 +2386,9 @@
                                 "color": "auto",
                                 "css": "",
                                 "scroll": false,
-                                "border": true,
+                                "border": false,
                                 "layout": "",
-                                "spacing": 0,
+                                "spacing": "0%",
                                 "default": "",
                                 "value": "",
                                 "precision": 0,
@@ -2418,13 +2415,13 @@
                                         "type": "strip",
                                         "id": "tools_extra_drums1",
                                         "label": false,
-                                        "height": "10%",
+                                        "height": "9%",
                                         "color": "auto",
                                         "css": "",
                                         "horizontal": true,
                                         "stretch": true,
-                                        "border": true,
-                                        "spacing": 5,
+                                        "border": false,
+                                        "spacing": "2.5%",
                                         "variables": "@{parent.variables}",
                                         "widgets": [
                                             {
@@ -2435,8 +2432,8 @@
                                                 "css": "",
                                                 "horizontal": true,
                                                 "stretch": true,
-                                                "border": true,
-                                                "spacing": 8,
+                                                "border": false,
+                                                "spacing": "0%",
                                                 "variables": "@{parent.variables}",
                                                 "widgets": [],
                                                 "_style": "style",
@@ -2448,7 +2445,7 @@
                                                 "value": "",
                                                 "_osc": "osc",
                                                 "precision": 0,
-                                                "address": "/tools_extra_keyboard_nr_of_keys4",
+                                                "address": "/tools_extra_keyboard_nr_of_keys",
                                                 "preArgs": [],
                                                 "target": [],
                                                 "tabs": [],
@@ -2511,11 +2508,11 @@
                         "label": false,
                         "width": "100%",
                         "height": "100%",
-                        "scroll": true,
+                        "scroll": false,
                         "color": "auto",
                         "css": "",
                         "layout": "",
-                        "spacing": 0,
+                        "spacing": "0%",
                         "variables": {},
                         "widgets": [
                             {
@@ -2657,7 +2654,7 @@
                                         "linkId": "",
                                         "label": "^link w",
                                         "color": "auto",
-                                        "css": ".label { border: grey 1px solid !important }",
+                                        "css": ".label { border: grey 2px solid !important }",
                                         "on": 1,
                                         "off": 0,
                                         "precision": 2,
@@ -2674,7 +2671,7 @@
                                         "linkId": "",
                                         "label": "OVR",
                                         "color": "auto",
-                                        "css": ".label { border: grey 1px solid !important }",
+                                        "css": ".label { border: grey 2px solid !important }",
                                         "on": 1,
                                         "off": 0,
                                         "precision": 2,
@@ -2697,7 +2694,7 @@
                                         "horizontal": false,
                                         "stretch": false,
                                         "border": false,
-                                        "spacing": 0,
+                                        "spacing": "0%",
                                         "variables": "@{parent.variables}",
                                         "widgets": [
                                             {
@@ -2801,7 +2798,7 @@
                                         "horizontal": false,
                                         "stretch": false,
                                         "border": false,
-                                        "spacing": 0,
+                                        "spacing": "0%",
                                         "variables": "@{parent.variables}",
                                         "widgets": [
                                             {
@@ -2829,7 +2826,7 @@
                                                     "Value 1": 1,
                                                     "Value 2": 2
                                                 },
-                                                "height": "auto"
+                                                "height": "50%"
                                             },
                                             {
                                                 "type": "toggle",
@@ -2856,7 +2853,7 @@
                                                     "Value 1": 1,
                                                     "Value 2": 2
                                                 },
-                                                "height": "auto"
+                                                "height": "50%"
                                             }
                                         ],
                                         "_geometry": "geometry",
@@ -2876,13 +2873,13 @@
                                     }
                                 ],
                                 "variables": {},
-                                "border": true,
+                                "border": false,
                                 "css": "",
                                 "horizontal": true,
                                 "stretch": false,
                                 "_style": "style",
                                 "_children": "children",
-                                "spacing": 3,
+                                "spacing": "0.25%",
                                 "scroll": false,
                                 "_geometry": "geometry",
                                 "_panel": "panel",
@@ -2905,7 +2902,7 @@
                                 "id": "strip_scroll_panel",
                                 "label": false,
                                 "color": "auto",
-                                "spacing": 0,
+                                "spacing": "0%",
                                 "variables": {
                                     "n": 1
                                 },
@@ -2944,8 +2941,8 @@
                                                 "css": "",
                                                 "horizontal": true,
                                                 "stretch": false,
-                                                "border": true,
-                                                "spacing": 4,
+                                                "border": false,
+                                                "spacing": "0%",
                                                 "variables": "@{parent.variables}",
                                                 "widgets": [
                                                     {
@@ -2958,7 +2955,7 @@
                                                         "horizontal": false,
                                                         "stretch": true,
                                                         "border": false,
-                                                        "spacing": 0,
+                                                        "spacing": "0%",
                                                         "variables": "@{parent.variables}",
                                                         "widgets": [
                                                             {
@@ -3087,8 +3084,8 @@
                                                 "css": "",
                                                 "horizontal": true,
                                                 "stretch": false,
-                                                "border": true,
-                                                "spacing": 4,
+                                                "border": false,
+                                                "spacing": "0%",
                                                 "variables": "@{parent.variables}",
                                                 "widgets": [
                                                     {
@@ -3183,7 +3180,7 @@
                                                 "label": false,
                                                 "color": "auto",
                                                 "css": "flex:1",
-                                                "spacing": 0,
+                                                "spacing": "0%",
                                                 "variables": "@{parent.variables}",
                                                 "widgets": [
                                                     {
@@ -3273,7 +3270,7 @@
                                                     }
                                                 ],
                                                 "height": "auto",
-                                                "border": true,
+                                                "border": false,
                                                 "horizontal": true,
                                                 "stretch": false,
                                                 "_style": "style",
@@ -3363,8 +3360,8 @@
                                                 "css": "",
                                                 "horizontal": true,
                                                 "stretch": false,
-                                                "border": true,
-                                                "spacing": 4,
+                                                "border": false,
+                                                "spacing": "0%",
                                                 "variables": "@{parent.variables}",
                                                 "widgets": [
                                                     {
@@ -3440,8 +3437,8 @@
                                                 "css": "",
                                                 "horizontal": true,
                                                 "stretch": false,
-                                                "border": true,
-                                                "spacing": 4,
+                                                "border": false,
+                                                "spacing": "0%",
                                                 "variables": "@{parent.variables}",
                                                 "widgets": [
                                                     {
@@ -3507,8 +3504,8 @@
                                             }
                                         ],
                                         "color": "auto",
-                                        "spacing": 0,
-                                        "border": true,
+                                        "spacing": "0%",
+                                        "border": false,
                                         "horizontal": false,
                                         "stretch": false,
                                         "_style": "style",
@@ -3633,7 +3630,7 @@
                                 "css": "",
                                 "height": 1080,
                                 "width": 490,
-                                "border": true,
+                                "border": false,
                                 "_style": "style",
                                 "_children": "children",
                                 "scroll": true,
@@ -3683,8 +3680,8 @@
                                         "css": "",
                                         "horizontal": true,
                                         "stretch": false,
-                                        "border": true,
-                                        "spacing": 4,
+                                        "border": false,
+                                        "spacing": "0%",
                                         "variables": "@{parent.variables}",
                                         "widgets": [
                                             {
@@ -3697,7 +3694,7 @@
                                                 "horizontal": false,
                                                 "stretch": true,
                                                 "border": false,
-                                                "spacing": 0,
+                                                "spacing": "0%",
                                                 "variables": "@{parent.variables}",
                                                 "widgets": [
                                                     {
@@ -3824,8 +3821,8 @@
                                         "css": "",
                                         "horizontal": true,
                                         "stretch": true,
-                                        "border": true,
-                                        "spacing": 4,
+                                        "border": false,
+                                        "spacing": "0%",
                                         "variables": "@{parent.variables}",
                                         "widgets": [
                                             {
@@ -3874,7 +3871,7 @@
                                         "label": false,
                                         "color": "auto",
                                         "css": "flex:1",
-                                        "spacing": 0,
+                                        "spacing": "0%",
                                         "variables": "@{parent.variables}",
                                         "widgets": [
                                             {
@@ -3960,7 +3957,7 @@
                                             }
                                         ],
                                         "height": "auto",
-                                        "border": true,
+                                        "border": false,
                                         "horizontal": true,
                                         "stretch": false,
                                         "_style": "style",
@@ -4048,8 +4045,8 @@
                                         "css": "",
                                         "horizontal": true,
                                         "stretch": true,
-                                        "border": true,
-                                        "spacing": 4,
+                                        "border": false,
+                                        "spacing": "0%",
                                         "variables": "@{parent.variables}",
                                         "widgets": [],
                                         "_style": "style",
@@ -4080,8 +4077,8 @@
                                         "css": "",
                                         "horizontal": true,
                                         "stretch": true,
-                                        "border": true,
-                                        "spacing": 4,
+                                        "border": false,
+                                        "spacing": "0%",
                                         "variables": "@{parent.variables}",
                                         "widgets": [
                                             {
@@ -4139,8 +4136,8 @@
                                         "bypass": false
                                     }
                                 ],
-                                "spacing": 0,
-                                "border": true,
+                                "spacing": "0%",
+                                "border": false,
                                 "horizontal": false,
                                 "stretch": false,
                                 "_style": "style",
@@ -4174,7 +4171,7 @@
                         "address": "/panel_mixer",
                         "preArgs": [],
                         "target": [],
-                        "border": true,
+                        "border": false,
                         "linkId": "",
                         "default": "",
                         "noSync": false,
@@ -4185,7 +4182,7 @@
                 "type": "tab",
                 "css": "",
                 "layout": "",
-                "spacing": 0,
+                "spacing": "0%",
                 "value": "",
                 "precision": 0,
                 "preArgs": [],
