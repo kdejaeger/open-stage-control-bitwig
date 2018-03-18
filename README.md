@@ -32,11 +32,11 @@ For example this is the contents of my open_stage_control.bat file:
 ```
 
 ## Screenshots
-# Oneplus 5 phone
+### Oneplus 5 phone
 ![Screenshot on OnePlus 5 phone](img/devices_oneplus_5.png)
 
-# Nexus 9 tablet
+### Nexus 9 tablet
 ![Screenshot on nexus 9 tablet](img/mixer_nexus_9.png)
 
-# Desktop
-![Screenshot on desktop](img/keyboard_desktop.png)
+### Desktop
+[![Screenshot on the desktop](img/keyboard_desktop.jpg)](img/keyboard_desktop.jpg)
