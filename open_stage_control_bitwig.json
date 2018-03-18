@@ -469,7 +469,7 @@
                                                         "widgetId": "",
                                                         "preArgs": [],
                                                         "linkId": "",
-                                                        "default": "",
+                                                        "default": " ",
                                                         "wrap": true,
                                                         "align": ""
                                                     },
@@ -761,7 +761,7 @@
                                                         "widgetId": "",
                                                         "preArgs": [],
                                                         "linkId": "",
-                                                        "default": "",
+                                                        "default": " ",
                                                         "wrap": true,
                                                         "align": ""
                                                     },
@@ -876,7 +876,7 @@
                                                         "widgetId": "",
                                                         "preArgs": [],
                                                         "linkId": "",
-                                                        "default": "",
+                                                        "default": " ",
                                                         "wrap": true,
                                                         "align": ""
                                                     },

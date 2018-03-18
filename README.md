@@ -28,4 +28,15 @@ It won't produce the settings popup and another big advantage is that it will co
 To do this, simply make a file on your desktop that executes Open Stage Control with the appropriate settings.
 For example this is the contents of my open_stage_control.bat file:
 ```
-"C:\Program Files\open-stage-control-win32-x64\open-stage-control.exe" --send 127.0.0.1:8000 --osc-port 9000 --theme orange alt-buttons responsive-fonts --load C:\\Users\\koen\\IdeaProjects\\open-stage-control-bitwig\\open_stage_control_bitwig.json --no-gui --fullscreen```
+"C:\Program Files\open-stage-control-win32-x64\open-stage-control.exe" --send 127.0.0.1:8000 --osc-port 9000 --theme orange alt-buttons responsive-fonts --load C:\\Users\\koen\\IdeaProjects\\open-stage-control-bitwig\\open_stage_control_bitwig.json --no-gui --fullscreen
+```
+
+## Screenshots
+# Oneplus 5 phone
+![Screenshot on OnePlus 5 phone](img/devices_oneplus_5.png)
+
+# Nexus 9 tablet
+![Screenshot on nexus 9 tablet](img/mixer_nexus_9.png)
+
+# Desktop
+![Screenshot on desktop](img/keyboard_desktop.png)
