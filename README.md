@@ -39,4 +39,4 @@ For example this is the contents of my open_stage_control.bat file:
 ![Screenshot on nexus 9 tablet](img/mixer_nexus_9.png)
 
 ### Desktop
-[ ![](img/keyboard_desktop.jpg.jpg) ](img/keyboard_desktop.jpg.jpg)
+[ ![](img/keyboard_desktop.png) ](img/keyboard_desktop.png)
