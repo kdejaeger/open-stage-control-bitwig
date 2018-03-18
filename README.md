@@ -7,10 +7,14 @@ I tried to make it responsive so it should look nice on tablet and phone.
 - [Open Stage Control](https://github.com/jean-emmanuel/open-stage-control/): a cross platform webapplication that uses OSC language it's own widgets
 - you also need a virtual midi channel, I used a program called loopMIDI
 
-## Configuration Bitwig
+## Configuration
+
+### Bitwig
 ![Bitwig settings](img/bitwig_settings.png)
 
-## Start Open Stage Control from installed executable
+### Open Stage Control
+
+#### Run from installed executable (easiest)
 This is the most simple way to start Open Stage Control:
 - Open the executable, a popup window appears
 - Fill in the settings.
@@ -21,7 +25,7 @@ This is the most simple way to start Open Stage Control:
 
 ![Open Stage Control settings](img/open_stage_control_settings.png)
 
-## Start Open Stage Control headless
+#### Run headless (preferred)
 Headless mode means, starting the program with the command line.
 It won't produce the settings popup and another big advantage is that it will consume a lot less CPU, which is important when you're probably running Bitwig at the same machine.
 
