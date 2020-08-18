@@ -4,7 +4,7 @@ I tried to make it responsive so it should look nice on tablet and phone.
 
 ## Dependencies to install
 - [DrivenByMoss](https://github.com/git-moss/DrivenByMoss/): an advanced Bitwig extension that communicates with the Bitwig JAVA api to send and receive [OSC](http://opensoundcontrol.org/) commands
-- [Open Stage Control v0.49.12](https://github.com/jean-emmanuel/open-stage-control/): a cross platform webapplication that uses OSC language it's own widgets
+- [Open Stage Control (v0.49.12)](https://github.com/jean-emmanuel/open-stage-control/): a cross platform webapplication that uses OSC language it's own widgets
 - you also need a virtual midi channel, I used a program called [loopMIDI](https://www.tobias-erichsen.de/software/loopmidi.html)
 
 ## Configuration
