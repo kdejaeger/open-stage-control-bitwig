@@ -1211,7 +1211,7 @@
                   "default": ""
                 },
                 {
-                  "type": "push",
+                  "type": "toggle",
                   "id": "transport_overdub",
                   "linkId": "",
                   "label": "OVR",
@@ -1222,7 +1222,6 @@
                   "precision": 2,
                   "preArgs": [],
                   "target": [],
-                  "norelease": true,
                   "address": "/overdub",
                   "width": "7%",
                   "bypass": false,
@@ -1230,10 +1229,12 @@
                   "top": "auto",
                   "height": "auto",
                   "doubleTap": false,
-                  "value": ""
+                  "value": "",
+                  "led": false,
+                  "default": ""
                 },
                 {
-                  "type": "push",
+                  "type": "toggle",
                   "id": "transport_autowrite_launcher",
                   "linkId": "",
                   "label": "^link w",
@@ -1244,7 +1245,6 @@
                   "precision": 2,
                   "preArgs": [],
                   "target": [],
-                  "norelease": true,
                   "address": "/autowrite/launcher",
                   "width": "7%",
                   "bypass": false,
@@ -1252,10 +1252,12 @@
                   "top": "auto",
                   "height": "auto",
                   "doubleTap": false,
-                  "value": ""
+                  "value": "",
+                  "led": false,
+                  "default": ""
                 },
                 {
-                  "type": "push",
+                  "type": "toggle",
                   "id": "transport_overdub_launcher",
                   "linkId": "",
                   "label": "OVR",
@@ -1266,7 +1268,6 @@
                   "precision": 2,
                   "preArgs": [],
                   "target": [],
-                  "norelease": true,
                   "address": "/overdub/launcher",
                   "width": "7%",
                   "bypass": false,
@@ -1274,7 +1275,9 @@
                   "top": "auto",
                   "height": "auto",
                   "doubleTap": false,
-                  "value": ""
+                  "value": "",
+                  "led": false,
+                  "default": ""
                 },
                 {
                   "type": "strip",
