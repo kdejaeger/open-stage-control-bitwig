@@ -1120,7 +1120,7 @@
                   "sensitivity": 1
                 },
                 {
-                  "type": "push",
+                  "type": "toggle",
                   "id": "transport_play",
                   "linkId": "",
                   "label": "^play",
@@ -1131,7 +1131,6 @@
                   "precision": 2,
                   "preArgs": [],
                   "target": [],
-                  "norelease": true,
                   "address": "/play",
                   "width": "7%",
                   "bypass": false,
@@ -1139,7 +1138,9 @@
                   "top": "auto",
                   "height": "auto",
                   "doubleTap": false,
-                  "value": ""
+                  "value": "",
+                  "led": false,
+                  "default": ""
                 },
                 {
                   "type": "push",
@@ -1164,7 +1165,7 @@
                   "value": ""
                 },
                 {
-                  "type": "push",
+                  "type": "toggle",
                   "id": "transport_record",
                   "linkId": "",
                   "label": "^circle",
@@ -1175,7 +1176,6 @@
                   "precision": 2,
                   "preArgs": [],
                   "target": [],
-                  "norelease": true,
                   "address": "/record",
                   "width": "7%",
                   "bypass": false,
@@ -1183,10 +1183,12 @@
                   "top": "auto",
                   "height": "auto",
                   "doubleTap": false,
-                  "value": ""
+                  "value": "",
+                  "led": false,
+                  "default": ""
                 },
                 {
-                  "type": "push",
+                  "type": "toggle",
                   "id": "transport_autowrite",
                   "linkId": "",
                   "label": "^link w",
@@ -1197,7 +1199,6 @@
                   "precision": 2,
                   "preArgs": [],
                   "target": [],
-                  "norelease": true,
                   "address": "/autowrite",
                   "width": "7%",
                   "bypass": false,
@@ -1205,7 +1206,9 @@
                   "top": "auto",
                   "height": "auto",
                   "doubleTap": false,
-                  "value": ""
+                  "value": "",
+                  "led": false,
+                  "default": ""
                 },
                 {
                   "type": "push",
@@ -1542,7 +1545,7 @@
                       "target": ""
                     },
                     {
-                      "type": "push",
+                      "type": "toggle",
                       "id": "mixer_track_name_@{parent.variables.n}",
                       "linkId": "",
                       "label": "#{\nlabel = OSC{/track/@{parent.variables.n}/name, ''}\n}",
@@ -1556,12 +1559,13 @@
                       "width": "24%",
                       "on": 1,
                       "off": 0,
-                      "norelease": false,
                       "left": "auto",
                       "top": "auto",
                       "height": "auto",
                       "doubleTap": false,
-                      "value": ""
+                      "value": "",
+                      "led": false,
+                      "default": ""
                     },
                     {
                       "type": "fader",
