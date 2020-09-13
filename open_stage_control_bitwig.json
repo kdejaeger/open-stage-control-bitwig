@@ -109,7 +109,12 @@
                       "target": [],
                       "bypass": false,
                       "height": "auto",
-                      "steps": ""
+                      "steps": "",
+                      "left": "auto",
+                      "top": "auto",
+                      "width": "auto",
+                      "compact": false,
+                      "sensitivity": 1
                     },
                     {
                       "type": "text",
@@ -125,7 +130,11 @@
                       "value": "",
                       "preArgs": [],
                       "address": "/device/param/@{parent.variables.n}/valueStr",
-                      "height": "15%"
+                      "height": "15%",
+                      "left": "auto",
+                      "top": "auto",
+                      "width": "auto",
+                      "target": ""
                     },
                     {
                       "type": "text",
@@ -141,7 +150,11 @@
                       "value": "",
                       "preArgs": [],
                       "address": "/device/param/@{parent.variables.n}/name",
-                      "height": "15%"
+                      "height": "15%",
+                      "left": "auto",
+                      "top": "auto",
+                      "width": "auto",
+                      "target": ""
                     },
                     {
                       "type": "text",
@@ -157,7 +170,11 @@
                       "value": "",
                       "preArgs": [],
                       "address": "/device/param/@{parent.variables.n}/modulatedValue",
-                      "height": "10%"
+                      "height": "10%",
+                      "left": "auto",
+                      "top": "auto",
+                      "width": "auto",
+                      "target": ""
                     }
                   ],
                   "default": "",
@@ -367,7 +384,11 @@
                           "address": "/track/selected/color",
                           "preArgs": [],
                           "linkId": "",
-                          "default": ""
+                          "default": "",
+                          "left": "auto",
+                          "top": "auto",
+                          "width": "auto",
+                          "target": ""
                         },
                         {
                           "type": "text",
@@ -383,7 +404,11 @@
                           "linkId": "",
                           "default": " ",
                           "wrap": true,
-                          "align": ""
+                          "align": "",
+                          "left": "auto",
+                          "top": "auto",
+                          "width": "auto",
+                          "target": ""
                         },
                         {
                           "type": "fader",
@@ -419,7 +444,11 @@
                           "meterAddress": "/track/selected/vu",
                           "target": [],
                           "bypass": false,
-                          "steps": ""
+                          "steps": "",
+                          "left": "auto",
+                          "top": "auto",
+                          "width": "auto",
+                          "sensitivity": 1
                         },
                         {
                           "type": "strip",
@@ -448,7 +477,12 @@
                               "css": "",
                               "color": "auto",
                               "bypass": false,
-                              "width": "auto"
+                              "width": "auto",
+                              "left": "auto",
+                              "top": "auto",
+                              "height": "auto",
+                              "doubleTap": false,
+                              "value": ""
                             },
                             {
                               "type": "push",
@@ -462,10 +496,15 @@
                               "target": [],
                               "norelease": true,
                               "address": "/track/parent",
-                              "css": "",
+                              "css": "#{\ncss = OSC{/track/hasParent, 0} == 0 ? \"visibility:hidden\" : \"\" \n}",
                               "color": "auto",
                               "bypass": false,
-                              "width": "auto"
+                              "width": "auto",
+                              "left": "auto",
+                              "top": "auto",
+                              "height": "auto",
+                              "doubleTap": false,
+                              "value": ""
                             }
                           ],
                           "scroll": false,
@@ -478,6 +517,9 @@
                           "target": [],
                           "bypass": false,
                           "address": "/tools_track_substrip1",
+                          "left": "auto",
+                          "top": "auto",
+                          "width": "auto",
                           "tabs": []
                         },
                         {
@@ -507,7 +549,12 @@
                               "css": "",
                               "color": "auto",
                               "bypass": false,
-                              "width": "auto"
+                              "width": "auto",
+                              "left": "auto",
+                              "top": "auto",
+                              "height": "auto",
+                              "doubleTap": false,
+                              "value": ""
                             },
                             {
                               "type": "push",
@@ -524,7 +571,12 @@
                               "css": "#{\ncss = OSC{/track/selected/isGroup, 0} == 0 ? \"visibility:hidden\" : \"\" \n}",
                               "color": "auto",
                               "bypass": false,
-                              "width": "auto"
+                              "width": "auto",
+                              "left": "auto",
+                              "top": "auto",
+                              "height": "auto",
+                              "doubleTap": false,
+                              "value": ""
                             }
                           ],
                           "scroll": false,
@@ -537,6 +589,9 @@
                           "target": [],
                           "bypass": false,
                           "address": "/tools_track_substrip2",
+                          "left": "auto",
+                          "top": "auto",
+                          "width": "auto",
                           "tabs": []
                         },
                         {
@@ -569,7 +624,10 @@
                               "led": false,
                               "default": "",
                               "value": "",
-                              "width": "auto"
+                              "width": "auto",
+                              "left": "auto",
+                              "top": "auto",
+                              "height": "auto"
                             },
                             {
                               "type": "toggle",
@@ -589,7 +647,10 @@
                               "led": false,
                               "default": "",
                               "value": "",
-                              "width": "auto"
+                              "width": "auto",
+                              "left": "auto",
+                              "top": "auto",
+                              "height": "auto"
                             }
                           ],
                           "scroll": false,
@@ -602,6 +663,9 @@
                           "target": [],
                           "bypass": false,
                           "address": "/tools_track_substrip3",
+                          "left": "auto",
+                          "top": "auto",
+                          "width": "auto",
                           "tabs": []
                         }
                       ],
@@ -612,6 +676,9 @@
                       "target": [],
                       "bypass": false,
                       "address": "/tools_strip_track_stuff",
+                      "left": "auto",
+                      "top": "auto",
+                      "width": "auto",
                       "tabs": []
                     },
                     {
@@ -643,7 +710,11 @@
                           "linkId": "",
                           "default": " ",
                           "wrap": true,
-                          "align": ""
+                          "align": "",
+                          "left": "auto",
+                          "top": "auto",
+                          "width": "auto",
+                          "target": ""
                         },
                         {
                           "type": "strip",
@@ -673,7 +744,12 @@
                               "css": "",
                               "width": 50,
                               "color": "auto",
-                              "bypass": false
+                              "bypass": false,
+                              "left": "auto",
+                              "top": "auto",
+                              "height": "auto",
+                              "doubleTap": false,
+                              "value": ""
                             },
                             {
                               "type": "push",
@@ -690,7 +766,12 @@
                               "css": "",
                               "width": 50,
                               "color": "auto",
-                              "bypass": false
+                              "bypass": false,
+                              "left": "auto",
+                              "top": "auto",
+                              "height": "auto",
+                              "doubleTap": false,
+                              "value": ""
                             }
                           ],
                           "scroll": false,
@@ -702,6 +783,9 @@
                           "target": [],
                           "bypass": false,
                           "address": "/tools_device_name_strip",
+                          "left": "auto",
+                          "top": "auto",
+                          "width": "auto",
                           "tabs": []
                         }
                       ],
@@ -712,6 +796,9 @@
                       "target": [],
                       "bypass": false,
                       "address": "/tools_strip_device_navigation",
+                      "left": "auto",
+                      "top": "auto",
+                      "width": "auto",
                       "tabs": []
                     },
                     {
@@ -743,7 +830,11 @@
                           "linkId": "",
                           "default": " ",
                           "wrap": true,
-                          "align": ""
+                          "align": "",
+                          "left": "auto",
+                          "top": "auto",
+                          "width": "auto",
+                          "target": ""
                         },
                         {
                           "type": "strip",
@@ -773,7 +864,12 @@
                               "css": "",
                               "color": "auto",
                               "bypass": false,
-                              "width": "auto"
+                              "width": "auto",
+                              "left": "auto",
+                              "top": "auto",
+                              "height": "auto",
+                              "doubleTap": false,
+                              "value": ""
                             },
                             {
                               "type": "push",
@@ -790,7 +886,12 @@
                               "css": "",
                               "color": "auto",
                               "bypass": false,
-                              "width": "auto"
+                              "width": "auto",
+                              "left": "auto",
+                              "top": "auto",
+                              "height": "auto",
+                              "doubleTap": false,
+                              "value": ""
                             }
                           ],
                           "scroll": false,
@@ -802,6 +903,9 @@
                           "target": [],
                           "bypass": false,
                           "address": "/tools_device_param_strip",
+                          "left": "auto",
+                          "top": "auto",
+                          "width": "auto",
                           "tabs": []
                         }
                       ],
@@ -812,6 +916,9 @@
                       "target": [],
                       "bypass": false,
                       "address": "/tools_strip_param_navigation",
+                      "left": "auto",
+                      "top": "auto",
+                      "width": "auto",
                       "tabs": []
                     },
                     {
@@ -845,7 +952,10 @@
                           "led": false,
                           "on": 1,
                           "off": 0,
-                          "width": "auto"
+                          "width": "auto",
+                          "left": "auto",
+                          "top": "auto",
+                          "height": "auto"
                         },
                         {
                           "type": "toggle",
@@ -865,7 +975,10 @@
                           "led": false,
                           "on": 0,
                           "off": 1,
-                          "width": "auto"
+                          "width": "auto",
+                          "left": "auto",
+                          "top": "auto",
+                          "height": "auto"
                         },
                         {
                           "type": "toggle",
@@ -885,7 +998,10 @@
                           "bypass": false,
                           "led": false,
                           "on": 1,
-                          "off": 0
+                          "off": 0,
+                          "left": "auto",
+                          "top": "auto",
+                          "height": "auto"
                         }
                       ],
                       "scroll": false,
@@ -897,6 +1013,9 @@
                       "target": [],
                       "bypass": false,
                       "address": "/tools_device_extra_strip",
+                      "left": "auto",
+                      "top": "auto",
+                      "width": "auto",
                       "tabs": []
                     }
                   ],
@@ -929,6 +1048,7 @@
       ],
       "tabs": [],
       "bypass": false,
+      "detached": true,
       "scroll": true
     },
     {
@@ -993,7 +1113,11 @@
                   "linkId": "",
                   "default": "",
                   "bypass": false,
-                  "steps": ""
+                  "steps": "",
+                  "left": "auto",
+                  "top": "auto",
+                  "height": "auto",
+                  "sensitivity": 1
                 },
                 {
                   "type": "push",
@@ -1010,7 +1134,12 @@
                   "norelease": true,
                   "address": "/play",
                   "width": "7%",
-                  "bypass": false
+                  "bypass": false,
+                  "left": "auto",
+                  "top": "auto",
+                  "height": "auto",
+                  "doubleTap": false,
+                  "value": ""
                 },
                 {
                   "type": "push",
@@ -1027,7 +1156,12 @@
                   "norelease": true,
                   "address": "/stop",
                   "width": "7%",
-                  "bypass": false
+                  "bypass": false,
+                  "left": "auto",
+                  "top": "auto",
+                  "height": "auto",
+                  "doubleTap": false,
+                  "value": ""
                 },
                 {
                   "type": "push",
@@ -1044,7 +1178,12 @@
                   "norelease": true,
                   "address": "/record",
                   "width": "7%",
-                  "bypass": false
+                  "bypass": false,
+                  "left": "auto",
+                  "top": "auto",
+                  "height": "auto",
+                  "doubleTap": false,
+                  "value": ""
                 },
                 {
                   "type": "push",
@@ -1061,7 +1200,12 @@
                   "norelease": true,
                   "address": "/autowrite",
                   "width": "7%",
-                  "bypass": false
+                  "bypass": false,
+                  "left": "auto",
+                  "top": "auto",
+                  "height": "auto",
+                  "doubleTap": false,
+                  "value": ""
                 },
                 {
                   "type": "push",
@@ -1078,7 +1222,12 @@
                   "norelease": true,
                   "address": "/overdub",
                   "width": "7%",
-                  "bypass": false
+                  "bypass": false,
+                  "left": "auto",
+                  "top": "auto",
+                  "height": "auto",
+                  "doubleTap": false,
+                  "value": ""
                 },
                 {
                   "type": "push",
@@ -1095,7 +1244,12 @@
                   "norelease": true,
                   "address": "/autowrite/launcher",
                   "width": "7%",
-                  "bypass": false
+                  "bypass": false,
+                  "left": "auto",
+                  "top": "auto",
+                  "height": "auto",
+                  "doubleTap": false,
+                  "value": ""
                 },
                 {
                   "type": "push",
@@ -1112,7 +1266,12 @@
                   "norelease": true,
                   "address": "/overdub/launcher",
                   "width": "7%",
-                  "bypass": false
+                  "bypass": false,
+                  "left": "auto",
+                  "top": "auto",
+                  "height": "auto",
+                  "doubleTap": false,
+                  "value": ""
                 },
                 {
                   "type": "strip",
@@ -1143,7 +1302,11 @@
                       "default": "",
                       "wrap": false,
                       "align": "",
-                      "height": "60%"
+                      "height": "60%",
+                      "left": "auto",
+                      "top": "auto",
+                      "width": "auto",
+                      "target": ""
                     },
                     {
                       "type": "fader",
@@ -1179,7 +1342,11 @@
                       "meterAddress": "/master/vu",
                       "target": [],
                       "bypass": false,
-                      "steps": ""
+                      "steps": "",
+                      "left": "auto",
+                      "top": "auto",
+                      "width": "auto",
+                      "sensitivity": 1
                     }
                   ],
                   "default": "",
@@ -1189,6 +1356,9 @@
                   "target": [],
                   "bypass": false,
                   "address": "/transport_time_master_vu",
+                  "left": "auto",
+                  "top": "auto",
+                  "height": "auto",
                   "tabs": []
                 },
                 {
@@ -1209,7 +1379,10 @@
                   "doubleTap": false,
                   "led": false,
                   "default": "",
-                  "value": ""
+                  "value": "",
+                  "left": "auto",
+                  "top": "auto",
+                  "height": "auto"
                 },
                 {
                   "type": "strip",
@@ -1244,7 +1417,10 @@
                       "led": false,
                       "default": "",
                       "value": "",
-                      "height": "50%"
+                      "height": "50%",
+                      "left": "auto",
+                      "top": "auto",
+                      "width": "auto"
                     },
                     {
                       "type": "toggle",
@@ -1264,7 +1440,10 @@
                       "led": false,
                       "default": "",
                       "value": "",
-                      "height": "50%"
+                      "height": "50%",
+                      "left": "auto",
+                      "top": "auto",
+                      "width": "auto"
                     }
                   ],
                   "default": "",
@@ -1274,6 +1453,9 @@
                   "target": [],
                   "bypass": false,
                   "address": "/transport_pi_po",
+                  "left": "auto",
+                  "top": "auto",
+                  "height": "auto",
                   "tabs": []
                 },
                 {
@@ -1291,7 +1473,12 @@
                   "norelease": false,
                   "address": "/refresh",
                   "width": "4%",
-                  "bypass": false
+                  "bypass": false,
+                  "left": "auto",
+                  "top": "auto",
+                  "height": "auto",
+                  "doubleTap": false,
+                  "value": ""
                 }
               ],
               "variables": {},
@@ -1348,7 +1535,11 @@
                       "value": "",
                       "address": "/track/@{parent.variables.n}/color",
                       "preArgs": [],
-                      "width": "3%"
+                      "width": "3%",
+                      "left": "auto",
+                      "top": "auto",
+                      "height": "auto",
+                      "target": ""
                     },
                     {
                       "type": "push",
@@ -1365,7 +1556,12 @@
                       "width": "24%",
                       "on": 1,
                       "off": 0,
-                      "norelease": false
+                      "norelease": false,
+                      "left": "auto",
+                      "top": "auto",
+                      "height": "auto",
+                      "doubleTap": false,
+                      "value": ""
                     },
                     {
                       "type": "fader",
@@ -1401,7 +1597,11 @@
                       "meter": true,
                       "meterAddress": "/track/@{parent.variables.n}/vu",
                       "width": "auto",
-                      "steps": ""
+                      "steps": "",
+                      "left": "auto",
+                      "top": "auto",
+                      "height": "auto",
+                      "sensitivity": 1
                     },
                     {
                       "type": "toggle",
@@ -1421,7 +1621,10 @@
                       "led": false,
                       "default": "",
                       "value": "",
-                      "width": "5%"
+                      "width": "5%",
+                      "left": "auto",
+                      "top": "auto",
+                      "height": "auto"
                     },
                     {
                       "type": "toggle",
@@ -1441,7 +1644,10 @@
                       "led": false,
                       "default": "",
                       "value": "",
-                      "width": "5%"
+                      "width": "5%",
+                      "left": "auto",
+                      "top": "auto",
+                      "height": "auto"
                     },
                     {
                       "type": "toggle",
@@ -1461,7 +1667,10 @@
                       "led": false,
                       "default": "",
                       "value": "",
-                      "width": "5%"
+                      "width": "5%",
+                      "left": "auto",
+                      "top": "auto",
+                      "height": "auto"
                     },
                     {
                       "type": "knob",
@@ -1493,7 +1702,12 @@
                       "unit": "",
                       "origin": "auto",
                       "touchAddress": "/track/@{parent.variables.n}/pan/indicate",
-                      "steps": ""
+                      "steps": "",
+                      "left": "auto",
+                      "top": "auto",
+                      "height": "auto",
+                      "compact": false,
+                      "sensitivity": 1
                     }
                   ],
                   "default": "",
@@ -1705,7 +1919,12 @@
                       "css": "",
                       "color": "auto",
                       "bypass": false,
-                      "width": "auto"
+                      "width": "auto",
+                      "left": "auto",
+                      "top": "auto",
+                      "height": "auto",
+                      "doubleTap": false,
+                      "value": ""
                     },
                     {
                       "type": "push",
@@ -1722,7 +1941,12 @@
                       "css": "",
                       "color": "auto",
                       "bypass": false,
-                      "width": "auto"
+                      "width": "auto",
+                      "left": "auto",
+                      "top": "auto",
+                      "height": "auto",
+                      "doubleTap": false,
+                      "value": ""
                     }
                   ],
                   "scroll": false,
@@ -1769,6 +1993,7 @@
       "linkId": "",
       "default": "",
       "bypass": false,
+      "detached": true,
       "scroll": true
     },
     {
@@ -1865,7 +2090,12 @@
                       "height": "#{\nheight = @{tools_drums_edit_switch} == 0 ? \"80%\" : \"35%\" \n}",
                       "on": 1,
                       "off": 0,
-                      "norelease": false
+                      "norelease": false,
+                      "left": "auto",
+                      "top": "auto",
+                      "width": "auto",
+                      "doubleTap": false,
+                      "value": ""
                     },
                     {
                       "type": "strip",
@@ -1899,7 +2129,10 @@
                           "preArgs": [],
                           "target": [],
                           "bypass": false,
-                          "width": "50%"
+                          "width": "50%",
+                          "left": "auto",
+                          "top": "auto",
+                          "height": "auto"
                         },
                         {
                           "type": "toggle",
@@ -1919,7 +2152,10 @@
                           "preArgs": [],
                           "target": [],
                           "bypass": false,
-                          "width": "50%"
+                          "width": "50%",
+                          "left": "auto",
+                          "top": "auto",
+                          "height": "auto"
                         }
                       ],
                       "height": "30%",
@@ -1930,6 +2166,9 @@
                       "target": [],
                       "bypass": false,
                       "address": "/edit_solo_mute_drum_@{parent.variables.note}",
+                      "left": "auto",
+                      "top": "auto",
+                      "width": "auto",
                       "tabs": []
                     },
                     {
@@ -1966,7 +2205,11 @@
                       "target": [],
                       "bypass": false,
                       "height": "#{\nheight = @{tools_drums_edit_switch} == 0 ? \"15%\" : \"30%\" \n}",
-                      "steps": ""
+                      "steps": "",
+                      "left": "auto",
+                      "top": "auto",
+                      "width": "auto",
+                      "sensitivity": 1
                     }
                   ],
                   "default": "",
@@ -2332,7 +2575,10 @@
                       "address": false,
                       "preArgs": [],
                       "target": [],
-                      "bypass": false
+                      "bypass": false,
+                      "left": "auto",
+                      "top": "auto",
+                      "height": "auto"
                     },
                     {
                       "type": "push",
@@ -2349,7 +2595,12 @@
                       "css": "",
                       "color": "auto",
                       "bypass": false,
-                      "width": "auto"
+                      "width": "auto",
+                      "left": "auto",
+                      "top": "auto",
+                      "height": "auto",
+                      "doubleTap": false,
+                      "value": ""
                     },
                     {
                       "type": "push",
@@ -2366,7 +2617,12 @@
                       "css": "",
                       "color": "auto",
                       "bypass": false,
-                      "width": "auto"
+                      "width": "auto",
+                      "left": "auto",
+                      "top": "auto",
+                      "height": "auto",
+                      "doubleTap": false,
+                      "value": ""
                     }
                   ],
                   "scroll": false,
@@ -2391,6 +2647,7 @@
         }
       ],
       "tabs": [],
+      "detached": true,
       "scroll": true
     },
     {
@@ -2472,7 +2729,8 @@
                   "split": true,
                   "target": [],
                   "bypass": false,
-                  "linkId": ""
+                  "linkId": "",
+                  "toggles": false
                 },
                 {
                   "type": "strip",
@@ -2526,7 +2784,11 @@
                       "target": [],
                       "bypass": false,
                       "width": "30%",
-                      "steps": ""
+                      "steps": "",
+                      "left": "auto",
+                      "top": "auto",
+                      "height": "auto",
+                      "sensitivity": 1
                     },
                     {
                       "type": "fader",
@@ -2562,7 +2824,11 @@
                       "target": [],
                       "bypass": true,
                       "width": "30%",
-                      "steps": ""
+                      "steps": "",
+                      "left": "auto",
+                      "top": "auto",
+                      "height": "auto",
+                      "sensitivity": 1
                     },
                     {
                       "type": "fader",
@@ -2598,7 +2864,11 @@
                       "target": [],
                       "bypass": false,
                       "width": "30%",
-                      "steps": ""
+                      "steps": "",
+                      "left": "auto",
+                      "top": "auto",
+                      "height": "auto",
+                      "sensitivity": 1
                     },
                     {
                       "type": "strip",
@@ -2629,7 +2899,11 @@
                           "address": false,
                           "vertical": false,
                           "wrap": false,
-                          "align": ""
+                          "align": "",
+                          "left": "auto",
+                          "top": "auto",
+                          "width": "auto",
+                          "target": ""
                         },
                         {
                           "type": "strip",
@@ -2664,7 +2938,12 @@
                               "css": "",
                               "color": "auto",
                               "bypass": false,
-                              "height": "auto"
+                              "height": "auto",
+                              "left": "auto",
+                              "top": "auto",
+                              "width": "auto",
+                              "doubleTap": false,
+                              "value": ""
                             },
                             {
                               "type": "push",
@@ -2681,13 +2960,21 @@
                               "css": "",
                               "color": "auto",
                               "bypass": false,
-                              "height": "auto"
+                              "height": "auto",
+                              "left": "auto",
+                              "top": "auto",
+                              "width": "auto",
+                              "doubleTap": false,
+                              "value": ""
                             }
                           ],
                           "scroll": false,
                           "precision": 0,
                           "target": [],
                           "bypass": false,
+                          "left": "auto",
+                          "top": "auto",
+                          "width": "auto",
                           "tabs": []
                         },
                         {
@@ -2704,7 +2991,11 @@
                           "preArgs": [],
                           "vertical": false,
                           "wrap": false,
-                          "align": ""
+                          "align": "",
+                          "left": "auto",
+                          "top": "auto",
+                          "width": "auto",
+                          "target": ""
                         },
                         {
                           "type": "script",
@@ -2722,7 +3013,10 @@
                           "address": "/script_aftertouch",
                           "preArgs": "",
                           "target": "",
-                          "bypass": false
+                          "bypass": false,
+                          "left": "auto",
+                          "top": "auto",
+                          "width": "auto"
                         }
                       ],
                       "default": "",
@@ -2732,6 +3026,9 @@
                       "target": [],
                       "bypass": false,
                       "address": "/tools_keyboard_buttons",
+                      "left": "auto",
+                      "top": "auto",
+                      "height": "auto",
                       "tabs": []
                     }
                   ],
@@ -2832,7 +3129,11 @@
                         "61": 61,
                         "88": 88
                       },
-                      "width": "auto"
+                      "width": "auto",
+                      "left": "auto",
+                      "top": "auto",
+                      "height": "auto",
+                      "traversing": true
                     }
                   ],
                   "scroll": false,
@@ -2857,6 +3158,7 @@
         }
       ],
       "tabs": [],
+      "detached": true,
       "scroll": true
     }
   ],
